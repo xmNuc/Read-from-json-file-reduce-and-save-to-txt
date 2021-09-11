@@ -20,6 +20,6 @@ const SUM_FILE = './data/sum.txt';
     await writeFile(SUM_FILE, numbersFromAraySummed.toString(), 'utf8');
     console.log('File is Saved');
   } catch (error) {
-    console.log('Ou no', error);
+    console.log('Oh no', error);
   }
 })();
